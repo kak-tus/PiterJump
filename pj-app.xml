@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<application xmlns="http://ns.adobe.com/air/application/19.0">
+  <id>net.xvostov.pj</id>
+  <versionNumber>1.0.0</versionNumber>
+  <filename>PiterJump</filename>
+  <description/>
+  <!-- To localize the description, use the following format for the description element.<description><text xml:lang="en">English App description goes here</text><text xml:lang="fr">French App description goes here</text><text xml:lang="ja">Japanese App description goes here</text></description>-->
+  <name>PiterJump</name>
+  <!-- To localize the name, use the following format for the name element.<name><text xml:lang="en">English App name goes here</text><text xml:lang="fr">French App name goes here</text><text xml:lang="ja">Japanese App name goes here</text></name>-->
+  <copyright/>
+  <initialWindow>
+    <content>pj.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <renderMode>auto</renderMode>
+    <autoOrients>true</autoOrients></initialWindow>
+  <icon>
+    <image29x29>ico_square_29.png</image29x29>
+    <image48x48>ico_square_48.png</image48x48>
+    <image50x50>ico_square_50.png</image50x50>
+    <image57x57>ico_square_57.png</image57x57>
+    <image58x58>ico_square_58.png</image58x58>
+    <image72x72>ico_square_72.png</image72x72>
+    <image100x100>ico_square_100.png</image100x100>
+    <image114x114>ico_square_114.png</image114x114>
+    <image144x144>ico_square_144.png</image144x144>
+    <image512x512>ico_square_512.png</image512x512>
+    <image1024x1024>ico_square_1024.png</image1024x1024>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <supportedLanguages>en zh fr de ja ru</supportedLanguages>
+  <iPhone>
+    <InfoAdditions>
+      <![CDATA[<key>UIDeviceFamily</key><array><string>1</string><string>2</string></array>]]>
+    </InfoAdditions>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </iPhone>
+  <extensions>
+    <extensionID>com.adobe.ane.productStore</extensionID>
+  </extensions>
+</application>
